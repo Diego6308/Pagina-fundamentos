@@ -1,35 +1,38 @@
-/* Estilos generales */
+/*Estilos generales*/
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #eaeaea;
+  background-color: #f4f6f8;
   margin: 0;
   padding: 0;
   line-height: 1.6;
 }
 
-/* Cabecera */
+/*Cabecera*/
+
 header {
-  background-color: #1f3a5f;
+  background-color: #2c3e50;
   color: white;
-  padding: 30px 20px;
+  padding: 35px 20px;
   text-align: center;
 }
 
-/* Navegación */
+/*Navegación*/
+
 nav {
-  background-color: #2c4a73;
+  background-color: #34495e;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 10px;
+  padding: 12px;
   text-align: center;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 nav ul li a {
@@ -38,44 +41,53 @@ nav ul li a {
   font-weight: bold;
 }
 
-/* Contenido principal */
+/*Contenido principal*/
+
 main {
   background-color: white;
   max-width: 900px;
   margin: 30px auto;
-  padding: 25px;
+  padding: 30px;
 }
 
-/* Secciones */
+/*Secciones*/
+
 section {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 h2 {
-  color: #1f3a5f;
+  color: #2c3e50;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
 }
 
-/* Listas */
+/*Listas*/
+
 ul {
   padding-left: 20px;
 }
 
-/* Formularios */
+/*Formularios*/
+
 input, textarea {
   width: 100%;
-  max-width: 400px;
-  padding: 5px;
+  max-width: 420px;
+  padding: 8px;
+  border: 1px solid #ccc;
 }
 
 /* Imágenes */
+
 img {
-  border: 2px solid #ccc;
-  margin: 10px 0;
+  border: 2px solid #ddd;
+  margin: 15px 0;
 }
 
-/* Pie de página */
+/*Pie de página*/
+
 footer {
-  background-color: #1f3a5f;
+  background-color: #2c3e50;
   color: white;
   text-align: center;
   padding: 15px;
