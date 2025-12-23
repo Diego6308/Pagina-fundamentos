@@ -1,34 +1,35 @@
-/* Estilo general */
+/* Estilos generales */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #eaeaea;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
 /* Cabecera */
 header {
-  background-color: #2c3e50;
+  background-color: #1f3a5f;
   color: white;
-  padding: 20px;
+  padding: 30px 20px;
   text-align: center;
 }
 
-/* Menú de navegación */
+/* Navegación */
 nav {
-  background-color: #34495e;
+  background-color: #2c4a73;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+  padding: 10px;
+  text-align: center;
 }
 
 nav ul li {
-  margin: 10px;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 nav ul li a {
@@ -37,28 +38,45 @@ nav ul li a {
   font-weight: bold;
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
 /* Contenido principal */
 main {
-  padding: 20px;
   background-color: white;
   max-width: 900px;
-  margin: 20px auto;
+  margin: 30px auto;
+  padding: 25px;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #1f3a5f;
+}
+
+/* Listas */
+ul {
+  padding-left: 20px;
+}
+
+/* Formularios */
+input, textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 5px;
 }
 
 /* Imágenes */
 img {
-  margin: 10px;
   border: 2px solid #ccc;
+  margin: 10px 0;
 }
 
 /* Pie de página */
 footer {
-  background-color: #2c3e50;
+  background-color: #1f3a5f;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
